@@ -1,7 +1,8 @@
 {
   "scripts": {
     "api": "node ratingsAPI.js",
-    "eslint": "node_modules/.bin/eslint **/*.js --quiet"
+    "eslint": "node_modules/.bin/eslint **/*.js --quiet",
+    "build": "node_modules/.bin/webpack js/app.js build/app.bundle.js"
   },
   "dependencies": {
     "axios": "0.16.1",
