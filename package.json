@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "api": "node ratingsAPI.js"
+    "api": "node ratingsAPI.js",
+    "eslint": "node_modules/.bin/eslint **/*.js --quiet"
   },
   "dependencies": {
     "axios": "0.16.1",

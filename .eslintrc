@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "globals": {
+    "React": false,
+    "ReactDOM": false
+  },
+  "rules": {
+    "react/prop-types": 1
+  },
+  "parserOptions": {
+    "ecmaVersion": 2016,
+    "sourceTypes": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  }
+}
