@@ -12,7 +12,8 @@
     "ReactDOM": false
   },
   "rules": {
-    "react/prop-types": 1
+    "react/prop-types": 1,
+    "react/jsx-filename-extension": 0
   },
   "parserOptions": {
     "ecmaVersion": 2016,
