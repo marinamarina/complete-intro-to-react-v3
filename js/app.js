@@ -1,17 +1,19 @@
 import React from 'react'
 import Landing from './landing'
 import Search from './search'
+import NotFound from './not_found'
 import { render } from 'react-dom'
-import { HashRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 const App = () =>
-  <HashRouter>
+  <BrowserRouter>
     <div className='app'>
       <Switch>
+        <Route exact path='/' component={Landing} />
         <Route path='/search' component={Search} />
-        <Route path='/' component={Landing} />
+        <Route component={NotFound} />
       </Switch>
     </div>
-  </HashRouter>
+  </BrowserRouter>
 
 render(React.createElement(App), document.getElementById('app'))
