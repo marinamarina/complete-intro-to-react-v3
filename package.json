@@ -4,7 +4,7 @@
     "eslint": "node_modules/.bin/eslint **/*.js --quiet",
     "build": "node_modules/.bin/webpack",
     "build:watch": "yarn build -- --watch",
-    "start": "node_modules/.bin/webpack-dev-server"
+    "dev": "webpack-dev-server"
   },
   "dependencies": {
     "axios": "0.16.1",
